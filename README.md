@@ -1,4 +1,5 @@
-# 🎨 Signalist - Elegant Authentication System
+# 🎨 MarketVue - Elegant Authentication System
+### [Live App](marketvue-platform.vercel.app)
 
 A sophisticated, production-ready authentication system with elegant design, smooth animations, and professional UX for a modern fintech investment platform. Built with Next.js, TypeScript, and Tailwind CSS.
 
@@ -79,8 +80,8 @@ npm, yarn, or pnpm
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/signalist-auth.git
-cd signalist-auth
+git clone https://github.com/yourusername/MarketVue-auth.git
+cd MarketVue-auth
 ```
 
 2. **Install dependencies**
@@ -96,7 +97,6 @@ cp .env.example .env.local
 Add your credentials:
 ```env
 BETTER_AUTH_SECRET=your_secret_key_here
-DATABASE_URL=postgresql://user:password@host:5432/db
 BETTER_AUTH_URL=http://localhost:3000
 ```
 
@@ -110,7 +110,7 @@ npm run dev
 ## 📁 Project Structure
 
 ```
-signalist-auth/
+MarketVue-auth/
 ├── app/
 │   ├── (auth)/                    # Auth route group
 │   │   ├── layout.tsx            # Split layout with testimonial
@@ -141,7 +141,7 @@ signalist-auth/
 ├── public/
 │   └── assets/
 │       ├── icons/
-│       │   ├── logo.svg          # Signalist logo
+│       │   ├── logo.svg          # MarketVue logo
 │       │   └── star.svg          # 5-star rating
 │       └── images/
 │           └── dashboard.jpg     # Preview screenshot
@@ -343,7 +343,7 @@ export const PREFERRED_INDUSTRIES = [
 
 ### Vercel (Recommended)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/signalist-auth)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/MarketVue-auth)
 
 1. Push to GitHub
 2. Import in Vercel
@@ -413,10 +413,10 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for 
 
 ## 📞 Support & Contact
 
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/yourusername/signalist-auth/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/signalist-auth/discussions)
-- 📧 **Email**: support@signalist.app
-- 🐦 **Twitter**: [@signalist_app](https://twitter.com/signalist_app)
+- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/yourusername/MarketVue-auth/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/MarketVue-auth/discussions)
+- 📧 **Email**: support@MarketVue.app
+- 🐦 **Twitter**: [@MarketVue_app](https://twitter.com/MarketVue_app)
 
 ## 🗺️ Roadmap
 
@@ -456,7 +456,7 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for 
 
 If you find this project helpful, please give it a ⭐ on GitHub!
 
-[![Star on GitHub](https://img.shields.io/github/stars/yourusername/signalist-auth.svg?style=social)](https://github.com/yourusername/signalist-auth)
+[![Star on GitHub](https://img.shields.io/github/stars/yourusername/MarketVue-auth.svg?style=social)](https://github.com/yourusername/MarketVue-auth)
 
 ---
 
@@ -464,7 +464,7 @@ If you find this project helpful, please give it a ⭐ on GitHub!
 
 **Built with ❤️ using Next.js, TypeScript, and Tailwind CSS**
 
-[Website](https://signalist.app) • [Documentation](https://docs.signalist.app) • [Demo](https://demo.signalist.app)
+[Website](https://MarketVue.app) • [Documentation](https://docs.MarketVue.app) • [Demo](https://demo.MarketVue.app)
 
 Made by [Your Name](https://github.com/yourusername) | [LinkedIn](https://linkedin.com/in/yourprofile)
 
