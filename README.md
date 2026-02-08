@@ -409,6 +409,6 @@ If you find this project helpful, please give it a ⭐ on GitHub!
 
 [Website](https://marketvue-platform.vercel.app) • 
 
-Made by [Your Name](https://github.com/Vineetsh7) | [LinkedIn](https://www.linkedin.com/in/vineet-sharma-1687301a7/)
+Made by [Vineet](https://github.com/Vineetsh7) | [LinkedIn](https://www.linkedin.com/in/vineet-sharma-1687301a7/)
 
 </div>
