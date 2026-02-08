@@ -1,5 +1,5 @@
 # 🎨 MarketVue - Elegant Authentication System
-### [Live App](marketvue-platform.vercel.app)
+### [Live App](https://marketvue-platform.vercel.app/)
 
 A sophisticated, production-ready authentication system with elegant design, smooth animations, and professional UX for a modern fintech investment platform. Built with Next.js, TypeScript, and Tailwind CSS.
 
