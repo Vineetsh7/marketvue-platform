@@ -32,6 +32,7 @@ declare global {
         validation?: RegisterOptions;
         disabled?: boolean;
         value?: string;
+        icon?: ReactNode;
     };
 
     type Option = {
@@ -47,12 +48,14 @@ declare global {
         control: Control;
         error?: FieldError;
         required?: boolean;
+        icon?: ReactNode;
     };
 
     type FooterLinkProps = {
         text: string;
         linkText: string;
         href: string;
+        className?: ClassValue;
     };
 
     type SearchCommandProps = {

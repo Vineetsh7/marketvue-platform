@@ -1,15 +1,28 @@
 import Link from "next/link";
+import { cn } from "@/lib/utils";
 
-const FooterLink = ({ text, linkText, href }: FooterLinkProps) => {
-    return (
-        <div className="text-center pt-4">
-            <p className="text-sm text-gray-500">
-                {text}{` `}
-                <Link href={href} className="footer-link">
-                    {linkText}
-                </Link>
-            </p>
-        </div>
-    )
-}
-export default FooterLink
+const FooterLink = ({
+  text,
+  linkText,
+  href,
+  className,
+}: FooterLinkProps) => {
+  return (
+    <p
+      className={cn(
+        "text-center text-sm text-muted-foreground",
+        className
+      )}
+    >
+      {text}{" "}
+      <Link
+        href={href}
+        className="font-medium text-primary underline-offset-4 hover:underline"
+      >
+        {linkText}
+      </Link>
+    </p>
+  );
+};
+
+export default FooterLink;
