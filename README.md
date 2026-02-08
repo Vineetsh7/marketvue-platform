@@ -1,4 +1,4 @@
-# 🎨 MarketVue - Elegant Authentication System
+# 🎨 MarketVue Real-Time Stock Market Tracker with AI Insights—Next.js, TypeScript 
 ### [Live App](https://marketvue-platform.vercel.app/)
 
 A sophisticated, production-ready authentication system with elegant design, smooth animations, and professional UX for a modern fintech investment platform. Built with Next.js, TypeScript, and Tailwind CSS.
