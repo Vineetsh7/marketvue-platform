@@ -1,7 +1,11 @@
 # 🎨 MarketVue Real-Time Stock Market Tracker with AI Insights—Next.js, TypeScript 
 ### [Live App](https://marketvue-platform.vercel.app/)
 
-A sophisticated, production-ready authentication system with elegant design, smooth animations, and professional UX for a modern fintech investment platform. Built with Next.js, TypeScript, and Tailwind CSS.
+- Built a full-stack application using Next.js, TypeScript, MongoDB, and the Finnhub API. delivering real-time stock data for 500+ stocks with candlestick/line charts, company insights (PE ratio, EPS, revenue), and advanced search filtering.
+- Implemented event-driven workflows with Inngest, automating personalized price alerts, AI-generated daily summaries via Gemini API, and email notifications through Nodemailer, processing 1000+ automated events daily.
+- Developed authentication using Better Auth, supporting 3+ social providers (Google, GitHub), and engineered an admin dashboard with Shadcn UI/TailwindCSS for stock/news management, watchlists, and user monitoring.
+
+
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Next.js](https://img.shields.io/badge/Next.js-15-black)
@@ -31,14 +35,11 @@ A sophisticated, production-ready authentication system with elegant design, smo
 - **Dashboard Preview** - Live portfolio metrics (+12.5%) and alert counter (8 New)
 - **Loading States** - Elegant spinner animations
 - **Toast Notifications** - Success/error feedback with Sonner
-- **Password Recovery** - Forgot password functionality
 
-## 📸 Screenshots
 
 ### Sign In Page
 - Clean interface with email/password fields
 - Password visibility toggle (eye icon)
-- Forgot password link
 - Gradient submit button with arrow icon
 
 ### Sign Up Page
