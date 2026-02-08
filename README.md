@@ -80,7 +80,7 @@ npm, yarn, or pnpm
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/MarketVue-auth.git
+git clone https://github.com/Vineetsh7/marketvue-platform.git
 cd MarketVue-auth
 ```
 
@@ -106,52 +106,7 @@ npm run dev
 ```
 
 5. **Visit** [http://localhost:3000/sign-in](http://localhost:3000/sign-in)
-
-## 📁 Project Structure
-
-```
-MarketVue-auth/
-├── app/
-│   ├── (auth)/                    # Auth route group
-│   │   ├── layout.tsx            # Split layout with testimonial
-│   │   ├── sign-in/
-│   │   │   └── page.tsx          # Sign in form
-│   │   └── sign-up/
-│   │       └── page.tsx          # Multi-step sign up
-│   ├── layout.tsx                # Root layout
-│   └── page.tsx                  # Home/dashboard
-├── components/
-│   ├── forms/
-│   │   ├── InputField.tsx        # Text input with icon support
-│   │   ├── SelectField.tsx       # Dropdown with validation
-│   │   ├── CountrySelectField.tsx # Country picker
-│   │   └── FooterLink.tsx        # Sign in/up toggle link
-│   └── ui/                       # Shadcn components
-│       ├── button.tsx
-│       ├── input.tsx
-│       ├── label.tsx
-│       └── select.tsx
-├── lib/
-│   ├── actions/
-│   │   └── auth.actions.ts       # Server actions (signIn, signUp)
-│   ├── better-auth/
-│   │   └── auth.ts               # Better Auth config
-│   ├── constants.ts              # Investment options
-│   └── utils.ts                  # Utilities (cn function)
-├── public/
-│   └── assets/
-│       ├── icons/
-│       │   ├── logo.svg          # MarketVue logo
-│       │   └── star.svg          # 5-star rating
-│       └── images/
-│           └── dashboard.jpg     # Preview screenshot
-├── styles/
-│   ├── globals.css               # Global styles
-│   └── auth-layout-animations.css # Elegant animations
-├── types/
-│   └── index.d.ts                # TypeScript definitions
-└── tailwind.config.ts            # Tailwind configuration
-```
+ 
 
 ## 🎨 Customization Guide
 
@@ -413,10 +368,8 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for 
 
 ## 📞 Support & Contact
 
-- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/yourusername/MarketVue-auth/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/MarketVue-auth/discussions)
-- 📧 **Email**: support@MarketVue.app
-- 🐦 **Twitter**: [@MarketVue_app](https://twitter.com/MarketVue_app)
+- 🐛 **Bug Reports**: [GitHub Issues](https://github.com/Vineetsh7/marketvue-platform/issues)
+- 📧 **Email**: vineetsh2251@gmail.com
 
 ## 🗺️ Roadmap
 
@@ -444,28 +397,17 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for 
 - [ ] Analytics tracking
 - [ ] Internationalization (i18n)
 
-## 📊 Stats
-
-- **Components**: 12
-- **Routes**: 4
-- **Lines of Code**: ~2,000
-- **Bundle Size**: < 50KB (gzipped)
-- **Lighthouse Score**: 95+
-
-## ⭐ Show Your Support
 
 If you find this project helpful, please give it a ⭐ on GitHub!
 
-[![Star on GitHub](https://img.shields.io/github/stars/yourusername/MarketVue-auth.svg?style=social)](https://github.com/yourusername/MarketVue-auth)
 
----
 
 <div align="center">
 
 **Built with ❤️ using Next.js, TypeScript, and Tailwind CSS**
 
-[Website](https://MarketVue.app) • [Documentation](https://docs.MarketVue.app) • [Demo](https://demo.MarketVue.app)
+[Website](https://marketvue-platform.vercel.app) • 
 
-Made by [Your Name](https://github.com/yourusername) | [LinkedIn](https://linkedin.com/in/yourprofile)
+Made by [Your Name](https://github.com/Vineetsh7) | [LinkedIn](https://www.linkedin.com/in/vineet-sharma-1687301a7/)
 
 </div>
