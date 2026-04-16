@@ -1,7 +1,18 @@
+<<<<<<< HEAD
 # 🎨 MarketVue Platform
 ### [Live App](https://marketvue-platform.vercel.app/)
 
 A sophisticated, production-ready modern fintech investment platform. Features include an elegant authentication system, dynamic real-time financial data integration, AI-powered insights, and a professional UX. Built with Next.js, TypeScript, Tailwind CSS, MongoDB, and Better Auth.
+=======
+# 🎨 MarketVue Real-Time Stock Market Tracker with AI Insights—Next.js, TypeScript 
+### [Live App](https://marketvue-platform.vercel.app/)
+
+- Built a full-stack application using Next.js, TypeScript, MongoDB, and the Finnhub API. delivering real-time stock data for 500+ stocks with candlestick/line charts, company insights (PE ratio, EPS, revenue), and advanced search filtering.
+- Implemented event-driven workflows with Inngest, automating personalized price alerts, AI-generated daily summaries via Gemini API, and email notifications through Nodemailer, processing 1000+ automated events daily.
+- Developed authentication using Better Auth, supporting 3+ social providers (Google, GitHub), and engineered an admin dashboard with Shadcn UI/TailwindCSS for stock/news management, watchlists, and user monitoring.
+
+
+>>>>>>> 9f7af3cd7e3bba569b0d2532a344831a108c4628
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Next.js](https://img.shields.io/badge/Next.js-15-black)
@@ -23,11 +34,39 @@ A sophisticated, production-ready modern fintech investment platform. Features i
 - **Real-time Validation** - Instant form feedback using React Hook Form & Zod
 - **Tailored User Profiles** - Comprehensive data collection synced directly to MongoDB
 
+<<<<<<< HEAD
 ### 🎨 Design & UX Excellence
 - **Glassmorphism & Gradients** - Modern aesthetics with frosted glass and deep color schemes
 - **Interactive Micro-animations** - Snappy transitions for a responsive feel
 - **Responsive Layout** - Polished split-screen design for desktop, gracefully collapsing for mobile
 - **Accessibility Ready** - WCAG compliant, complete with proper ARIA attributes and keyboard navigation
+=======
+### 🚀 User Experience
+- **Split Layout** - Form left, social proof + dashboard preview right
+- **Testimonial Card** - User review with 5-star rating and avatar
+- **Dashboard Preview** - Live portfolio metrics (+12.5%) and alert counter (8 New)
+- **Loading States** - Elegant spinner animations
+- **Toast Notifications** - Success/error feedback with Sonner
+
+
+### Sign In Page
+- Clean interface with email/password fields
+- Password visibility toggle (eye icon)
+- Gradient submit button with arrow icon
+
+### Sign Up Page
+- Step 1: Full name, email, password
+- Step 2: Country selection with location helper text
+- Step 3: Investment goals, risk tolerance, preferred industry
+- Progress indicator (3 dots showing current step)
+
+### Layout Features
+- Minimal quote icon with subtle gradient background
+- Elegant testimonial with large, light typography
+- Dashboard preview with floating metric cards
+- Refined grid pattern (3% opacity)
+- Gradient avatar with user initials
+>>>>>>> 9f7af3cd7e3bba569b0d2532a344831a108c4628
 
 ## 🛠️ Tech Stack
 
@@ -133,5 +172,15 @@ This project is licensed under the **MIT License**.
 ---
 
 <div align="center">
+<<<<<<< HEAD
   <b>Built with ❤️ using Next.js, TypeScript, and Tailwind CSS</b>
+=======
+
+**Built with ❤️ using Next.js, TypeScript, and Tailwind CSS**
+
+[Website](https://marketvue-platform.vercel.app) • 
+
+Made by [Vineet](https://github.com/Vineetsh7) | [LinkedIn](https://www.linkedin.com/in/vineet-sharma-1687301a7/)
+
+>>>>>>> 9f7af3cd7e3bba569b0d2532a344831a108c4628
 </div>
